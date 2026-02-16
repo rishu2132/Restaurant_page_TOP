@@ -1,0 +1,39 @@
+body{
+    background-color: burlywood;
+    padding: 12px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 206, 206);
+    padding: 12px;
+    border-radius: 12px;
+    
+}
+
+header > nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+header > nav > button{
+    background-color: grey;
+    color: rgb(243, 243, 243);
+    font-weight: 600;
+    font-size: 24px;
+    border: none;
+    padding: 16px;
+    border-radius: 24px;
+}
+
+img{
+    width: 40vw;
+}
+
+#content{
+
+}
